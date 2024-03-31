@@ -6,7 +6,6 @@ interface ElementsType {
     name: string;
     atom_weight?: string;
     color?: string;
-    link?: string;
   }[];
 }
 
@@ -19,7 +18,6 @@ export const elements: ElementsType = {
       name: "Hidrogênio",
       atom_weight: "1.008",
       color: "naoMetais",
-      link: "https://pt.wikipedia.org/wiki/Hidrog%C3%A9nio",
     },
     {
       el_num: 1,
@@ -32,7 +30,6 @@ export const elements: ElementsType = {
       name: "Hélio",
       atom_weight: "4.0026",
       color: "gasesNobres",
-      link: "https://pt.wikipedia.org/wiki/Hidrog%C3%A9nio",
     },
   ],
   line_2: [
@@ -43,7 +40,6 @@ export const elements: ElementsType = {
       name: "Lítio",
       atom_weight: "6.94",
       color: "metaisAlcalinos",
-      link: "https://pt.wikipedia.org/wiki/L%C3%ADtio",
     },
     {
       el_num: 2,
@@ -52,7 +48,6 @@ export const elements: ElementsType = {
       name: "Berílio",
       atom_weight: "9.9122",
       color: "metaisAlcalinosTerrosos",
-      link: "https://pt.wikipedia.org/wiki/Ber%C3%ADlio",
     },
     {
       el_num: 2,
@@ -65,7 +60,6 @@ export const elements: ElementsType = {
       name: "Boro",
       atom_weight: "10.81",
       color: "semimetais",
-      link: "https://pt.wikipedia.org/wiki/Boro",
     },
     {
       el_num: 4,
@@ -74,7 +68,6 @@ export const elements: ElementsType = {
       name: "Carbono",
       atom_weight: "12.011",
       color: "naoMetais",
-      link: "https://pt.wikipedia.org/wiki/Carbono",
     },
     {
       el_num: 5,
@@ -83,7 +76,6 @@ export const elements: ElementsType = {
       name: "Nitrogênio",
       atom_weight: "14.007",
       color: "naoMetais",
-      link: "https://pt.wikipedia.org/wiki/Azoto",
     },
     {
       el_num: 6,
@@ -92,7 +84,6 @@ export const elements: ElementsType = {
       name: "Oxigênio",
       atom_weight: "15.999",
       color: "naoMetais",
-      link: "https://pt.wikipedia.org/wiki/Oxig%C3%A9nio",
     },
     {
       el_num: 7,
@@ -101,7 +92,6 @@ export const elements: ElementsType = {
       name: "Flúor",
       atom_weight: "18.998",
       color: "naoMetais",
-      link: "https://pt.wikipedia.org/wiki/Fl%C3%BAor",
     },
     {
       el_num: 8,
@@ -110,7 +100,6 @@ export const elements: ElementsType = {
       name: "Neônio",
       atom_weight: "20.18",
       color: "gasesNobres",
-      link: "https://pt.wikipedia.org/wiki/N%C3%A9on",
     },
   ],
   line_3: [
@@ -121,7 +110,6 @@ export const elements: ElementsType = {
       name: "Sódio",
       atom_weight: "22.99",
       color: "metaisAlcalinos",
-      link: "https://pt.wikipedia.org/wiki/S%C3%B3dio",
     },
     {
       el_num: 2,
@@ -130,7 +118,6 @@ export const elements: ElementsType = {
       name: "Magnésio",
       atom_weight: "24.305",
       color: "metaisAlcalinosTerrosos",
-      link: "https://pt.wikipedia.org/wiki/Magn%C3%A9sio",
     },
     {
       el_num: 2,
@@ -143,7 +130,6 @@ export const elements: ElementsType = {
       name: "Alumínio",
       atom_weight: "26.982",
       color: "posTransicao",
-      link: "https://pt.wikipedia.org/wiki/Alum%C3%ADnio",
     },
     {
       el_num: 4,
@@ -152,7 +138,6 @@ export const elements: ElementsType = {
       name: "Silício",
       atom_weight: "28.085",
       color: "semimetais",
-      link: "https://pt.wikipedia.org/wiki/Sil%C3%ADcio",
     },
     {
       el_num: 5,
@@ -161,7 +146,6 @@ export const elements: ElementsType = {
       name: "Fósforo",
       atom_weight: "30.974",
       color: "naoMetais",
-      link: "https://pt.wikipedia.org/wiki/F%C3%B3sforo",
     },
     {
       el_num: 6,
@@ -170,7 +154,6 @@ export const elements: ElementsType = {
       name: "Enxofre",
       atom_weight: "32.06",
       color: "naoMetais",
-      link: "https://pt.wikipedia.org/wiki/Enxofre",
     },
     {
       el_num: 7,
@@ -179,7 +162,6 @@ export const elements: ElementsType = {
       name: "Cloro",
       atom_weight: "35.45",
       color: "naoMetais",
-      link: "https://pt.wikipedia.org/wiki/Cloro",
     },
     {
       el_num: 8,
@@ -188,7 +170,6 @@ export const elements: ElementsType = {
       name: "Argônio",
       atom_weight: "39.948",
       color: "gasesNobres",
-      link: "https://pt.wikipedia.org/wiki/%C3%81rgon",
     },
   ],
   line_4: [
@@ -199,7 +180,6 @@ export const elements: ElementsType = {
       name: "Potássio",
       atom_weight: "39.098",
       color: "metaisAlcalinos",
-      link: "https://pt.wikipedia.org/wiki/Pot%C3%A1ssio",
     },
     {
       el_num: 2,
@@ -208,7 +188,6 @@ export const elements: ElementsType = {
       name: "Cálcio",
       atom_weight: "40.078(4)",
       color: "metaisAlcalinosTerrosos",
-      link: "https://pt.wikipedia.org/wiki/C%C3%A1lcio",
     },
     {
       el_num: 3,
@@ -217,7 +196,6 @@ export const elements: ElementsType = {
       name: "Escândio",
       atom_weight: "44.956",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Esc%C3%A2ndio",
     },
     {
       el_num: 4,
@@ -226,7 +204,6 @@ export const elements: ElementsType = {
       name: "Titânio",
       atom_weight: "47.867",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Tit%C3%A2nio",
     },
     {
       el_num: 5,
@@ -235,7 +212,6 @@ export const elements: ElementsType = {
       name: "Vanádio",
       atom_weight: "50.942",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Van%C3%A1dio",
     },
     {
       el_num: 6,
@@ -244,7 +220,6 @@ export const elements: ElementsType = {
       name: "Crômio",
       atom_weight: "51.996",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Cromo",
     },
     {
       el_num: 7,
@@ -253,7 +228,6 @@ export const elements: ElementsType = {
       name: "Manganês",
       atom_weight: "54.938",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Mangan%C3%AAs",
     },
     {
       el_num: 8,
@@ -262,7 +236,6 @@ export const elements: ElementsType = {
       name: "Ferro",
       atom_weight: "55.845(2)",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Ferro",
     },
     {
       el_num: 9,
@@ -271,7 +244,6 @@ export const elements: ElementsType = {
       name: "Cobalto",
       atom_weight: "58.933",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Cobalto",
     },
     {
       el_num: 10,
@@ -280,7 +252,6 @@ export const elements: ElementsType = {
       name: "Níquel",
       atom_weight: "58.693",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/N%C3%ADquel",
     },
     {
       el_num: 11,
@@ -289,7 +260,6 @@ export const elements: ElementsType = {
       name: "Cobre",
       atom_weight: "63.546(3)",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Cobre",
     },
     {
       el_num: 12,
@@ -298,7 +268,6 @@ export const elements: ElementsType = {
       name: "Zinco",
       atom_weight: "65,38(2)",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Zinco",
     },
     {
       el_num: 13,
@@ -307,7 +276,6 @@ export const elements: ElementsType = {
       name: "Gálio",
       atom_weight: "69.723",
       color: "posTransicao",
-      link: "https://pt.wikipedia.org/wiki/G%C3%A1lio",
     },
     {
       el_num: 14,
@@ -316,7 +284,6 @@ export const elements: ElementsType = {
       name: "Germânio",
       atom_weight: "72.630(8)",
       color: "semimetais",
-      link: "https://pt.wikipedia.org/wiki/Germ%C3%A2nio",
     },
     {
       el_num: 15,
@@ -325,7 +292,6 @@ export const elements: ElementsType = {
       name: "Arsênio",
       atom_weight: "74.922",
       color: "semimetais",
-      link: "https://pt.wikipedia.org/wiki/Ars%C3%AAnio",
     },
     {
       el_num: 16,
@@ -334,7 +300,6 @@ export const elements: ElementsType = {
       name: "Selênio",
       atom_weight: "78.971(8)",
       color: "naoMetais",
-      link: "https://pt.wikipedia.org/wiki/Sel%C3%AAnio",
     },
     {
       el_num: 17,
@@ -343,7 +308,6 @@ export const elements: ElementsType = {
       name: "Bromo",
       atom_weight: "79.904",
       color: "naoMetais",
-      link: "https://pt.wikipedia.org/wiki/Bromo",
     },
     {
       el_num: 18,
@@ -352,7 +316,6 @@ export const elements: ElementsType = {
       name: "Criptônio",
       atom_weight: "83.798(2)",
       color: "gasesNobres",
-      link: "https://pt.wikipedia.org/wiki/Cr%C3%ADpton",
     },
   ],
   line_5: [
@@ -363,7 +326,6 @@ export const elements: ElementsType = {
       name: "Rubídio",
       atom_weight: "85.468",
       color: "metaisAlcalinos",
-      link: "https://pt.wikipedia.org/wiki/Rub%C3%ADdio",
     },
     {
       el_num: 2,
@@ -372,7 +334,6 @@ export const elements: ElementsType = {
       name: "Estrôncio",
       atom_weight: "87.62",
       color: "metaisAlcalinosTerrosos",
-      link: "https://pt.wikipedia.org/wiki/Estr%C3%B4ncio",
     },
     {
       el_num: 3,
@@ -381,7 +342,6 @@ export const elements: ElementsType = {
       name: "Ítrio",
       atom_weight: "88.906",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/%C3%8Dtrio",
     },
     {
       el_num: 4,
@@ -390,7 +350,6 @@ export const elements: ElementsType = {
       name: "Zircônio",
       atom_weight: "91.224(2)",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Zirc%C3%B4nio",
     },
     {
       el_num: 5,
@@ -399,7 +358,6 @@ export const elements: ElementsType = {
       name: "Nióbio",
       atom_weight: "92.906",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Ni%C3%B3bio",
     },
     {
       el_num: 6,
@@ -408,7 +366,6 @@ export const elements: ElementsType = {
       name: "Molibdênio",
       atom_weight: "95.95",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Molibd%C3%AAnio",
     },
     {
       el_num: 7,
@@ -417,7 +374,6 @@ export const elements: ElementsType = {
       name: "Tecnécio",
       atom_weight: "[93]",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Tecn%C3%A9cio",
     },
     {
       el_num: 8,
@@ -426,7 +382,6 @@ export const elements: ElementsType = {
       name: "Rutênio",
       atom_weight: "101.072(2)",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Rut%C3%AAnio",
     },
     {
       el_num: 9,
@@ -435,7 +390,6 @@ export const elements: ElementsType = {
       name: "Ródio",
       atom_weight: "106.42",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/R%C3%B3dio",
     },
     {
       el_num: 10,
@@ -444,7 +398,6 @@ export const elements: ElementsType = {
       name: "Paládio",
       atom_weight: "106.42",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Pal%C3%A1dio",
     },
     {
       el_num: 11,
@@ -453,7 +406,6 @@ export const elements: ElementsType = {
       name: "Prata",
       atom_weight: "107.87",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/Prata",
     },
     {
       el_num: 12,
@@ -462,7 +414,6 @@ export const elements: ElementsType = {
       name: "Cádmio",
       atom_weight: "112.41",
       color: "metaisDeTransicao",
-      link: "https://pt.wikipedia.org/wiki/C%C3%A1dmio",
     },
     {
       el_num: 13,
@@ -471,7 +422,6 @@ export const elements: ElementsType = {
       name: "Índio",
       atom_weight: "114.82",
       color: "posTransicao",
-      link: "https://pt.wikipedia.org/wiki/%C3%8Dndio_(elemento_qu%C3%ADmico)",
     },
     {
       el_num: 14,
@@ -480,7 +430,6 @@ export const elements: ElementsType = {
       name: "Estanho",
       atom_weight: "118.71",
       color: "posTransicao",
-      link: "https://pt.wikipedia.org/wiki/Estanho",
     },
     {
       el_num: 15,
@@ -489,7 +438,6 @@ export const elements: ElementsType = {
       name: "Antimônio",
       atom_weight: "121.76",
       color: "semimetais",
-      link: "https://pt.wikipedia.org/wiki/Antim%C3%B4nio",
     },
     {
       el_num: 16,
@@ -498,7 +446,6 @@ export const elements: ElementsType = {
       name: "Telúrio",
       atom_weight: "127.60(3)",
       color: "semimetais",
-      link: "https://pt.wikipedia.org/wiki/Tel%C3%BArio",
     },
     {
       el_num: 17,
@@ -507,7 +454,6 @@ export const elements: ElementsType = {
       name: "Iodo",
       atom_weight: "126.9",
       color: "naoMetais",
-      link: "https://pt.wikipedia.org/wiki/Iodo",
     },
     {
       el_num: 18,
@@ -516,7 +462,6 @@ export const elements: ElementsType = {
       name: "Xenônio",
       atom_weight: "131.29",
       color: "gasesNobres",
-      link: "https://pt.wikipedia.org/wiki/Xen%C3%B4nio",
     },
   ],
   line_6: [

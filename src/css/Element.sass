@@ -1,5 +1,10 @@
 .blank
-    border: none !important
+    border: none
+    backdrop-filter: none !important
+    cursor: auto !important
+    
+.blank::before
+    background-color: transparent !important
 
 .blank_1 
     width: 80vw !important
@@ -12,11 +17,26 @@
 .blank_5
     width: 10vw !important
 
+#periodic_table
+    translate: 0 5vh
+
 .element
-    border: solid 1px var(--Text)
+    border: none
+    position: relative
     height: 10vh
     width: 5vw
-    
+    cursor: pointer
+
+    .element_background
+        position: absolute
+        width: 100%
+        height: 10%
+        z-index: -1
+        top: 0
+        left: 0
+        opacity: var(--element-opacity)
+        transition: all .3s ease
+
     .num_atom
         position: relative
         top: 10px
@@ -38,7 +58,30 @@
         text-align: center
         margin: 3px
         font-size: .8rem
+        
 
+    a
+        position: absolute
+        display: block
+        width: 100%
+        height: 100%
+        top: 0
+        left: 0
+
+.element::before
+    content: ""
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    background-color: var(--Base)
+    z-index: -1
+
+.element:hover,
+.element.show
+    .element_background
+        height: 100%
 
 .element:nth-child(1)
     margin-left: 5vw
